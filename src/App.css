@@ -1,4 +1,9 @@
 /* Темный фон и глобальные стили */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -8,10 +13,6 @@ body {
   min-height: 100vh;
 }
 
-#root {
-  width: 100%;
-  box-sizing: border-box;
-}
 .App {
   max-width: 1000px;
   margin: 0 auto;
@@ -127,6 +128,7 @@ h1 {
   .search-input {
     font-size: 0.9rem;
     padding: 10px 15px;
+    max-width: 500px !important;
   }
 
   .word-card {
